@@ -11,7 +11,3 @@ resource "aws_s3_bucket_acl" "tf_course_bucket_acl" {
   bucket = "tf_course"
   acl    = "private"
 }
-
-resource "aws_default_vpc" "default" {
-  
-}
